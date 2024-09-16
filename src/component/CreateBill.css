@@ -1,0 +1,141 @@
+.create-bill-container {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .bill-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .section {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .section h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #17a2b8;
+    padding-bottom: 5px;
+    color: #343a40;
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    width: 30%;
+    font-size: 1rem;
+    margin-right: 10px;
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  .form-group input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .product-group {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    margin-bottom: 10px;
+  }
+  
+  .product-group:last-child {
+    margin-bottom: 0;
+  }
+  
+  .product-group .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .add-product-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+    display: block;
+    width: 100%;
+  }
+  
+  .add-product-btn:hover {
+    background-color: #138496;
+  }
+  
+  .total {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .generate-bill-btn {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  
+  .generate-bill-btn:hover {
+    background-color: #218838;
+  }
+  
+  .form-group select {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #495057;
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray"><polygon points="5,6 11,6 8,10"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+  }
+  
+  .form-group select:focus {
+    border-color: #17a2b8;
+    outline: none;
+    box-shadow: 0 0 3px rgba(23, 162, 184, 0.5);
+  }
+  
+  .form-group select:hover {
+    border-color: #007bff;
+  }
+  

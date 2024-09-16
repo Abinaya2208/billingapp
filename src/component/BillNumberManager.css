@@ -1,0 +1,40 @@
+.bill-number-manager {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bill-number-manager .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .bill-number-manager label {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  
+  .bill-number-manager input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .bill-number-manager button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .bill-number-manager button:hover {
+    background-color: #138496;
+  }
+  
